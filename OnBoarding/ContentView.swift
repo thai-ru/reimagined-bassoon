@@ -18,9 +18,10 @@ struct ContentView: View {
             WelcomePage()
             FeaturesPage()
         }
-        .background(Gradient(colors: gradientColors))
+        .background(.mint)
+        .shadow(radius: 7)
         .tabViewStyle(.page)
-        .foregroundStyle(.white)
+        .foregroundStyle(.black)
     }
 }
 
