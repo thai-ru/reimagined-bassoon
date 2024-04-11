@@ -10,7 +10,9 @@ import SwiftUI
 struct WelcomePage: View {
     var body: some View {
         VStack {
+            
             ZStack {
+                
                 RoundedRectangle(cornerRadius: 30)
                     .frame(width: 150, height: 150)
                     .foregroundStyle(.tint)
@@ -24,16 +26,18 @@ struct WelcomePage: View {
                 .font(.largeTitle)
                 .fontWeight(.bold)
                 .fontWidth(.condensed)
-            .fontDesign(.serif)
-            .padding(.top)
-            .padding(.bottom)
+                .fontDesign(.serif)
+                .padding(.top)
+                .padding(.bottom)
             
             Text("Welcome, Let's get started!")
                 .font(.headline)
                 .fontWeight(.semibold)
                 .fontWidth(.expanded)
                 .fontDesign(.serif)
+                .foregroundStyle(.secondary)
         }
+        
         .padding()
         .multilineTextAlignment(.center)
     }

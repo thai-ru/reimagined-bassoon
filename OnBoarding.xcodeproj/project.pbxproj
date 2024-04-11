@@ -15,6 +15,8 @@
 		00E1338D2BC869CC00684837 /* OnBoardingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E1338C2BC869CC00684837 /* OnBoardingUITests.swift */; };
 		00E1338F2BC869CC00684837 /* OnBoardingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E1338E2BC869CC00684837 /* OnBoardingUITestsLaunchTests.swift */; };
 		00E1339E2BC86B1E00684837 /* WelcomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E1339D2BC86B1E00684837 /* WelcomePage.swift */; };
+		00E133A02BC873E500684837 /* FeaturesPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E1339F2BC873E500684837 /* FeaturesPage.swift */; };
+		00E133A22BC8744D00684837 /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E133A12BC8744D00684837 /* FeatureCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		00E1338C2BC869CC00684837 /* OnBoardingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingUITests.swift; sourceTree = "<group>"; };
 		00E1338E2BC869CC00684837 /* OnBoardingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		00E1339D2BC86B1E00684837 /* WelcomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePage.swift; sourceTree = "<group>"; };
+		00E1339F2BC873E500684837 /* FeaturesPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturesPage.swift; sourceTree = "<group>"; };
+		00E133A12BC8744D00684837 /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 			isa = PBXGroup;
 			children = (
 				00E1339D2BC86B1E00684837 /* WelcomePage.swift */,
+				00E1339F2BC873E500684837 /* FeaturesPage.swift */,
+				00E133A12BC8744D00684837 /* FeatureCard.swift */,
 				00E133702BC869CB00684837 /* OnBoarding */,
 				00E133812BC869CC00684837 /* OnBoardingTests */,
 				00E1338B2BC869CC00684837 /* OnBoardingUITests */,
@@ -261,8 +267,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				00E1339E2BC86B1E00684837 /* WelcomePage.swift in Sources */,
+				00E133A02BC873E500684837 /* FeaturesPage.swift in Sources */,
 				00E133742BC869CB00684837 /* ContentView.swift in Sources */,
 				00E133722BC869CB00684837 /* OnBoardingApp.swift in Sources */,
+				00E133A22BC8744D00684837 /* FeatureCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
