@@ -20,7 +20,7 @@ struct WelcomePage: View {
                     .foregroundStyle(.white)
             }
             
-            Text("Welcome to MyApp")
+            Text("Thairu Inc.")
                 .font(.largeTitle)
                 .fontWeight(.bold)
                 .fontWidth(.condensed)
