@@ -14,6 +14,7 @@
 		00E133832BC869CC00684837 /* OnBoardingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E133822BC869CC00684837 /* OnBoardingTests.swift */; };
 		00E1338D2BC869CC00684837 /* OnBoardingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E1338C2BC869CC00684837 /* OnBoardingUITests.swift */; };
 		00E1338F2BC869CC00684837 /* OnBoardingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E1338E2BC869CC00684837 /* OnBoardingUITestsLaunchTests.swift */; };
+		00E1339E2BC86B1E00684837 /* WelcomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E1339D2BC86B1E00684837 /* WelcomePage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		00E133882BC869CC00684837 /* OnBoardingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnBoardingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E1338C2BC869CC00684837 /* OnBoardingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingUITests.swift; sourceTree = "<group>"; };
 		00E1338E2BC869CC00684837 /* OnBoardingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		00E1339D2BC86B1E00684837 /* WelcomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		00E133652BC869CB00684837 = {
 			isa = PBXGroup;
 			children = (
+				00E1339D2BC86B1E00684837 /* WelcomePage.swift */,
 				00E133702BC869CB00684837 /* OnBoarding */,
 				00E133812BC869CC00684837 /* OnBoardingTests */,
 				00E1338B2BC869CC00684837 /* OnBoardingUITests */,
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00E1339E2BC86B1E00684837 /* WelcomePage.swift in Sources */,
 				00E133742BC869CB00684837 /* ContentView.swift in Sources */,
 				00E133722BC869CB00684837 /* OnBoardingApp.swift in Sources */,
 			);
