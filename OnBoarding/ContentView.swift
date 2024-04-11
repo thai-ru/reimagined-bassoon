@@ -19,7 +19,7 @@ struct ContentView: View {
             FeaturesPage()
         }
         .background(.mint)
-        .shadow(radius: 7)
+        .shadow(radius: 2)
         .tabViewStyle(.page)
         .foregroundStyle(.black)
     }
