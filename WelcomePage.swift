@@ -35,7 +35,6 @@ struct WelcomePage: View {
                 .fontWeight(.semibold)
                 .fontWidth(.expanded)
                 .fontDesign(.serif)
-                .foregroundStyle(.secondary)
         }
         
         .padding()

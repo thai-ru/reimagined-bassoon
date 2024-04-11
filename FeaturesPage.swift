@@ -9,12 +9,13 @@ import SwiftUI
 
 struct FeaturesPage: View {
     var body: some View {
-        VStack {
+        VStack(spacing: 15) {
             Text("Features")
                 .font(.title)
                 .fontWeight(.semibold)
                 .fontDesign(.serif)
                 .padding(.bottom)
+                .padding(.top, 120)
             
             FeatureCard(iconName: "person.2.crop.square.stack.fill", description: "Meet our team of professionals who take you through the steps from design to product.")
             
@@ -28,6 +29,8 @@ struct FeaturesPage: View {
                 description: "Shoot us a Message today!"
             )
             
+            Spacer()
+            
         }
         .padding()
     }
@@ -35,4 +38,7 @@ struct FeaturesPage: View {
 
 #Preview {
     FeaturesPage()
+        .frame(maxHeight: .infinity)
+        .background(Gradient(colors: gradientColors))
+        .foregroundStyle(.white)
 }
